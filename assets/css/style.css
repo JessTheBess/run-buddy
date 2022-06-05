@@ -12,11 +12,19 @@ body {
 
 /* apply styles to <header> */
 
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
 header h1{
     font-weight: bold;
     font-size: 36px;
     margin: 0;
-    display: inline;
+    color: #fce138;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header a {
@@ -26,7 +34,6 @@ header a {
 }
 
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
@@ -66,10 +73,10 @@ footer a {
 /* Hero Style Sheet */
 .hero {
     background-image: url("../images/hero-bg.jpg.jpg");
-    height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
+    height: 600px;
 }
 
 .start-building-habits {
