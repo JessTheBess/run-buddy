@@ -11,10 +11,6 @@ body {
 }
 
 /* apply styles to <header> */
-header {
-    padding: 20px 35px;
-    background-color: #39a6b2;
-}
 
 header h1{
     font-weight: bold;
@@ -69,11 +65,23 @@ footer a {
 
 /* Hero Style Sheet */
 .hero {
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/hero-bg.jpg.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
+}
+
+h2 {
+    color: #fce138;
+    font-style: italic;
+    font-size: 36px;
+
+}
+
+.start-building-habits {
+    color: white;
+    font-size: 16px;
 }
 
 .hero-form {
