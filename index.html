@@ -34,7 +34,7 @@
         </header>
         <!-- hero/jumbotron section -->
         <section class="hero">
-            <div class="start-building-habits">
+            <div class="start-building-habits" id="start-building-habits">
                 <h2>Start Building<br>Habits.</h2>
                 <p>
                     seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies <br>
@@ -72,10 +72,10 @@
                 </p>
                 <!-- enter code for checkbox -->
                 <p>
+                    <input type="checkbox" name="of-age" id="18-yes" />
                     <label for="checkbox" >
                         I acknowledge that I am at least 18 years of age.
                     </label>
-                    <input type="checkbox" name="of-age" id="18-yes" />
                 </p>
                 <button type="submit">
                     Get Running!
@@ -168,13 +168,6 @@
         <section id="reach-out" class="contact">
             <h2 class="section-title secondary-border">Reach Out</h2>
             <div class="contact-info">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3469.8069324839444!2d-98.38696279999999!3d29.580220299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c8c7a954e3333%3A0xedd82c26a133b156!2s5131%20Spring%20Ash%2C%20San%20Antonio%2C%20TX%2078247!5e0!3m2!1sen!2sus!4v1653853522269!5m2!1sen!2sus"
-                width="400" 
-                height="400"
-                style="border:0;" 
-                allowfullscreen="" 
-                loading="lazy">
-                </iframe>
 
                 <div>
                     <h3>Run Buddy</h3>
@@ -192,7 +185,29 @@
                         E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
                     </address>
                 </div>
-            </div>
+
+                <div class="contact-form">
+                    <h3>Contact Us</h3>
+                    <form>
+                        <label for="contact-name">Your Name</label>
+                        <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" >
+                        
+                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message" placeholder="Message"></textarea>
+
+                        <button type="submit">Submit</button>
+                        
+                        </button>
+                    </form>
+                </div>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3469.8069324839444!2d-98.38696279999999!3d29.580220299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c8c7a954e3333%3A0xedd82c26a133b156!2s5131%20Spring%20Ash%2C%20San%20Antonio%2C%20TX%2078247!5e0!3m2!1sen!2sus!4v1653853522269!5m2!1sen!2sus"
+                width="400" 
+                height="400"
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+                </iframe>
         </section>
 
         <!-- footer -->

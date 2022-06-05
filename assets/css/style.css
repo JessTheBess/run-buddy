@@ -15,14 +15,14 @@ body {
 header h1{
     font-weight: bold;
     font-size: 36px;
-    color: #fce138;
     margin: 0;
     display: inline;
 }
 
 header a {
     text-decoration: none;
-    color: #fce138
+    color: #fce138;
+    text-shadow: 2px 2px 8px #024e76;
 }
 
 header nav {
@@ -72,21 +72,24 @@ footer a {
     position: relative;
 }
 
-h2 {
-    color: #fce138;
-    font-style: italic;
-    font-size: 36px;
-
-}
-
 .start-building-habits {
     color: white;
     font-size: 16px;
+    text-align: right;
+    margin: 15px 700px 0px 0;
+}
+
+.start-building-habits h2 {
+    color: #fce138;
+    font-style: italic;
+    font-size: 36px;
+    text-shadow: 2px 2px 8px #024e76;
 }
 
 .hero-form {
+    border-radius: 20px;
     border: 3px solid #024e76;
-    background-color: #fce138;
+    background: rgb(252, 225, 56, 0.8);
     padding: 20px;
     width: 500px;
     color: #024e76;
@@ -105,6 +108,7 @@ h2 {
 }
 
 .form-input {
+    border-radius: 10px;
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
@@ -119,6 +123,7 @@ h2 {
 }
 
 .hero-form button {
+    border-radius: 10px;
     color: #fce138;
     background-color: #024e76;
     border: none;
@@ -264,18 +269,18 @@ h2 {
     color: white;
   }
 
-  .contact h3 {
-      color: #fce138;
-      font-size: 32px;
-  }
+.contact h3 {
+    color: #fce138;
+    font-size: 32px;
+}
 
-  .contact-info p, .contact-info address {
-      margin: 20px 0;
-      line-height: 1.5;
-      font-size: 20px;
-      font-size: normal;
-      
-  }
+.contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-size: normal;
+    
+}
 
 .contact-info a {
     color: #fce138;
